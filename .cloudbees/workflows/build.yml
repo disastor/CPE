@@ -11,10 +11,7 @@ on:
         type: string
         default: 1.14.3
         description: Version to build and register
-  push:
-    branches:
-      - main
-
+        
 jobs:
   build:
     outputs:
